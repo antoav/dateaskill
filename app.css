@@ -76,6 +76,16 @@ table {
 	font-family: 'Crimson Text';
 }
 
+.announce-card::selection {
+	background: #a1c181;
+	color: white;
+}
+
+h2::selection {
+	background: #a1c181;
+	color: white;
+}
+
 #logo {
 	font-family: 'Open Sans';
 	font-weight: 800;
