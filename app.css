@@ -83,6 +83,14 @@ table {
 	text-transform: uppercase;
 }
 
+#logo:hover {
+	color: #a1c181;
+}
+
+#mainNavbar a:hover, footer p:hover {
+	color: #a1c181;
+
+}
 
 @media (max-width: 1200px) {
 	.announce-card {
