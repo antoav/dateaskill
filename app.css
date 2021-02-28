@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Open Sans';
 	/* background-color: rgb(175, 186, 152); */
 	
 }
@@ -71,6 +72,7 @@ table {
 	font-size: 3em;
 	padding: 20px;
 	margin: 90px 300px;
+	font-family: 'Crimson Text';
 }
 
 @media (max-width: 1200px) {
@@ -79,6 +81,11 @@ table {
 		padding: 15px;
 		margin: 90px 100px;
 	}
+	.footer-text {
+		font-size: 9px;
+		padding: 20px 30px;
+	}
+
 }
 
 
