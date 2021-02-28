@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: rgb(175, 186, 152);
 }
 ol, ul {
 	list-style: none;
@@ -46,3 +47,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+nav {
+	background-color: white;
+}
+
+
+.main-image {
+	width: 200px;
+
+}
+
