@@ -29,8 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
-	font-family: 'Open Sans';
+	line-height: 1.5;
 	/* background-color: rgb(175, 186, 152); */
 	
 }
@@ -58,10 +57,12 @@ table {
 
 .footer {
 	border-top: 1px #c4c4c4 solid;
+	background-color: #1e2939;
 }
 
 .footer-text {
 	padding: 90px 130px;
+	color: #c4c4c4;
 }
 
 .text-cols {
@@ -74,6 +75,14 @@ table {
 	margin: 90px 300px;
 	font-family: 'Crimson Text';
 }
+
+#logo {
+	font-family: 'Open Sans';
+	font-weight: 800;
+	color: #1e2939;
+	text-transform: uppercase;
+}
+
 
 @media (max-width: 1200px) {
 	.announce-card {
