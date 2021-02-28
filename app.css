@@ -48,13 +48,10 @@ table {
 	border-spacing: 0;
 }
 
-nav {
-	background-color: white;
+.img-main {
+	padding: 0;
+	max-height: 900px; overflow: hidden;
+	margin-top: -5%;
 }
 
-
-.main-image {
-	width: 200px;
-
-}
 
