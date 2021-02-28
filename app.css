@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: rgb(175, 186, 152);
+	/* background-color: rgb(175, 186, 152); */
+	
 }
 ol, ul {
 	list-style: none;
@@ -55,7 +56,11 @@ table {
 }
 
 .footer {
-	margin: 90px 130px;
+	border-top: 1px #c4c4c4 solid;
+}
+
+.footer-text {
+	padding: 90px 130px;
 }
 
 .text-cols {
