@@ -102,6 +102,19 @@ h2::selection {
 
 }
 
+.form-style {
+	padding-top: 150px;
+	box-sizing: border-box;
+}
+
+.row {
+	background: #a1c181;
+	border-radius: 30px;
+
+}
+
+
+
 @media (max-width: 1200px) {
 	.announce-card {
 		font-size: 1.5em;

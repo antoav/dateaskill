@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+	/* background-color: rgb(175, 186, 152); */
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.img-main {
+	padding: 0;
+	max-height: 900px; overflow: hidden;
+	margin-top: -5%;
+}
+
+.footer {
+	border-top: 1px #c4c4c4 solid;
+	background-color: #1e2939;
+}
+
+.footer-text {
+	padding: 90px 130px;
+	color: #c4c4c4;
+}
+
+.text-cols {
+	margin: 100px 200px;
+}
+
+.announce-card {
+	font-size: 3em;
+	padding: 20px;
+	margin: 90px 300px;
+	font-family: 'Crimson Text';
+}
+
+.announce-card::selection {
+	background: #a1c181;
+	color: white;
+}
+
+h2::selection {
+	background: #a1c181;
+	color: white;
+}
+
+#logo {
+	font-family: 'Open Sans';
+	font-weight: 800;
+	color: #1e2939;
+	text-transform: uppercase;
+}
+
+#logo:hover {
+	color: #a1c181;
+}
+
+#mainNavbar a:hover, footer p:hover {
+	color: #a1c181;
+
+}
+
+.form-style {
+	padding-top: 60px;
+	box-sizing: border-box;
+
+}
+
+.row {
+	background: #c4c4c4;
+	border-radius: 30px;
+}
+
+
+
+@media (max-width: 1200px) {
+	.announce-card {
+		font-size: 1.5em;
+		padding: 15px;
+		margin: 90px 100px;
+	}
+	.footer-text {
+		font-size: 9px;
+		padding: 20px 30px;
+	}
+
+}
+
+
+
+.form-image {
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+    max-height: 600px;
+}
