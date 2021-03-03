@@ -182,6 +182,7 @@ h3::selection{
     margin-right: -199px;
 }
 
+
 @media (max-width: 1200px) {
 	.announce-card {
 		font-size: 1.5em;
