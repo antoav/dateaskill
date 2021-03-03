@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+    font-family: 'Open Sans' sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1.5;
+    font-family: 'Open Sans' sans-serif;
 	/* background-color: rgb(175, 186, 152); */
 	
 }
@@ -47,6 +48,20 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: #a1c181;
+}
+
+a:hover {
+    color: #1e2939;
+    text-decoration: none;
 }
 
 .img-main {
@@ -81,16 +96,29 @@ table {
 	color: white;
 }
 
-h2::selection {
+h2::selection, a::selection, p::selection, 
+h3::selection{
 	background: #a1c181;
 	color: white;
 }
 
+
 #logo {
-	font-family: 'Open Sans';
 	font-weight: 800;
 	color: #1e2939;
 	text-transform: uppercase;
+}
+.form-header {
+    font-size: 2em;
+	font-weight: 800;
+	color: #1e2939;
+	text-transform: uppercase;
+}
+.header-3 {
+    font-size: 1.4em;
+	color: #1e2939;
+	font-weight: 300;
+    
 }
 
 #logo:hover {
@@ -109,8 +137,42 @@ h2::selection {
 }
 
 .row {
-	background: #c4c4c4;
+	background: rgb(248, 249, 250);
 	border-radius: 30px;
+    box-shadow: 12px 12px 22px #c4c4c4;
+}
+
+.form-image {
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+}
+
+
+.btn1 {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #1e2939;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+.btn1:hover {
+    border: none;
+    outline: none;
+    background-color:rgb(248, 249, 250);
+    color: #1e2939;
+    border: #1e2939 3px solid;
+
 }
 
 
@@ -126,12 +188,4 @@ h2::selection {
 		padding: 20px 30px;
 	}
 
-}
-
-
-
-.form-image {
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
-    max-height: 600px;
 }
