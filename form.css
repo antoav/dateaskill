@@ -45,6 +45,8 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -140,6 +142,7 @@ h3::selection{
 	background: rgb(248, 249, 250);
 	border-radius: 30px;
     box-shadow: 12px 12px 22px #c4c4c4;
+    margin-left: 80px;
 }
 
 .form-image {
@@ -175,7 +178,9 @@ h3::selection{
 
 }
 
-
+.right-column{
+    margin-right: -199px;
+}
 
 @media (max-width: 1200px) {
 	.announce-card {
