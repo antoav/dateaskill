@@ -107,12 +107,6 @@ h2::selection {
 	box-sizing: border-box;
 }
 
-.row {
-	background: #a1c181;
-	border-radius: 30px;
-
-}
-
 
 
 @media (max-width: 1200px) {
